@@ -1,0 +1,88 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Helvetica Neue', Poppins, sans-serif;
+  
+}
+html,
+body{
+  height: 100%;
+  width: 100%;
+  background: #0f0f0f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* button{
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 2rem;
+  border: none;
+}
+h1{
+  background-color: rgb(107, 107, 107);
+  width: fit-content;
+  border-radius: 8px;
+  font-size: 100px;
+  padding: 10px 70px;
+  margin: 10px;
+} */
+
+/* main card */
+.app{
+  background: #1a1a1a;
+  padding: 30px;
+  border-radius: 16px;
+  width: 300px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.6);
+}
+
+/* heading */
+h2{
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* counter display */
+h3{
+  color: #fff;
+  font-size: 28px;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  padding: 12px 0;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+/* buttons */
+.btnContainer{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+button{
+  height: 50px;
+  border-radius: 12px;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  background: #fff;
+  color: #000;
+  transition: all 0.2s ease;
+}
+
+button:hover{
+  background: #2575fc;
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+button:active{
+  transform: scale(0.95);
+}
