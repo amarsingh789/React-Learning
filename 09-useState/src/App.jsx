@@ -54,6 +54,7 @@
 
 // export default App
 
+// project: Create a counter app with increase,decrease,multiply,divide and reset functionality
 
 import React from 'react'
 import { useState } from 'react'
