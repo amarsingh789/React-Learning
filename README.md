@@ -13,6 +13,7 @@ This repository documents my journey of learning React through hands-on practice
 - Local Storage
 - API Calling
 - useEffect Hook
+- Gallery Project
 - UI Mini Projects
 - Tailwind CSS
 
@@ -31,6 +32,7 @@ This repository documents my journey of learning React through hands-on practice
 - 14-localstorage → Using browser localStorage for data persistence  
 - 15-api-calling → Fetching and displaying data from APIs  
 - 16-useeffect → Side effects handling using the useEffect hook  
+- 17-gallery-project → Image gallery project using React concepts  
 
 ## Learning Approach
 - Daily hands-on React practice
