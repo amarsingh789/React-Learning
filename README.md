@@ -16,6 +16,7 @@ It includes both **classwork-based practice folders** and **independent projects
 - Local Storage
 - API Calling
 - useEffect Hook
+- React Router DOM (Basic & Advanced)
 - Gallery Project
 - UI Mini Projects
 - Tailwind CSS
@@ -46,7 +47,27 @@ The **Gallery Project** is a standalone React project built to practice real-wor
 
 > ⚠️ Note:  
 > The earlier **17-gallery-project** folder was created as part of classwork practice.  
-> The **current Gallery Project** is an improved and independent implementation with better UI, UX, and structure.
+> The **gallery-project** folder is an independent and improved implementation with better UI, UX, and structure.
+
+---
+
+## 🧭 React Router Projects
+
+### 18-react-router
+Basic implementation of **React Router DOM**, covering:
+- BrowserRouter setup
+- Routes & Route
+- Page navigation
+- Basic client-side routing concept
+
+### 19-react-advance-router-dom
+Advanced routing concepts implemented using **React Router DOM**, including:
+- Nested routes
+- Dynamic routes
+- 404 / Not Found page handling
+- `useNavigate` hook
+- Programmatic navigation
+- Route-based UI structure
 
 ---
 
@@ -66,7 +87,9 @@ The **Gallery Project** is a standalone React project built to practice real-wor
 - 15-api-calling → Fetching and displaying data from APIs  
 - 16-useeffect → Side effects handling using the useEffect hook  
 - 17-gallery-project → Gallery project (classwork version)  
-- gallery-project → **Independent gallery project with pagination & skeleton loaders**
+- gallery-project → **Independent gallery project with pagination & skeleton loaders**  
+- 18-react-router → Basic React Router DOM concepts  
+- 19-react-advance-router-dom → Advanced routing, nested routes & 404 handling  
 
 ---
 
@@ -81,4 +104,4 @@ The **Gallery Project** is a standalone React project built to practice real-wor
 ---
 
 ## 🎯 Goal
-To build a strong foundation in React and frontend development, gain confidence with real-world concepts like APIs, pagination, and state management, and move towards building **production-ready React applications**.
+To build a strong foundation in React and frontend development, gain confidence with real-world concepts like APIs, routing, pagination, and state management, and move towards building **production-ready React applications**.
