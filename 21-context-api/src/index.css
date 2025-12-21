@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Helvetica Neue', Poppins, sans-serif;
+  /* color: #fff; */
+}
+html,
+body{
+  height: 100%;
+  width: 100%;
+}
+.nav{
+  display: flex;
+  background-color: teal;
+  color: white;
+  justify-content: space-between;
+  padding: 10px 20px;
+  align-items: center;
+}
+.light{
+  background-color: deepskyblue;
+}
+.dark{
+  background-color: darkcyan;
+}
+.nav2{
+  display: flex;
+  gap: 25px;
+}
